@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Huxd's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"…","fields":{"slug":"/hello-blog/"},"frontmatter":{"date":"November 28, 2021","title":"欢迎来到我的blog 💻","description":"这是一个我用来分享的地方"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["230163734","3589320610"]}
