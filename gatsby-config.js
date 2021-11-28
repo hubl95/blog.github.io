@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: `/`,
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Huxd's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Xidong Hu`,
+      summary: `a front-end rookie`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `This is my blog`,
+    // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      github: `hubl95`,
     },
   },
   plugins: [

@@ -1,3 +1,10 @@
+/*
+ * Description  : 
+ * Author       : Huxd
+ * Date         : 2021-11-27 15:17:15
+ * LastEditors  : Huxd
+ * LastEditTime : 2021-11-28 17:47:48
+ */
 import * as React from "react"
 import { Link } from "gatsby"
 
@@ -25,9 +32,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        © {new Date().getFullYear()}, Built by Huxd
       </footer>
     </div>
   )

@@ -1,3 +1,10 @@
+/*
+ * Description  : 
+ * Author       : Huxd
+ * Date         : 2021-11-27 15:17:15
+ * LastEditors  : Huxd
+ * LastEditTime : 2021-11-28 17:53:02
+ */
 /**
  * Bio component that queries for data
  * with Gatsby's useStaticQuery component
@@ -19,7 +26,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            github
           }
         }
       }
@@ -36,19 +43,16 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="../images/avatar.jpeg"
         width={50}
         height={50}
         quality={95}
-        alt="Profile picture"
+        alt="avatar"
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          Personal blog by <strong>{author.name}</strong> 
+          <br />{author?.summary || null}
         </p>
       )}
     </div>

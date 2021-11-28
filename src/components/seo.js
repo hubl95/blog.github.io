@@ -1,3 +1,10 @@
+/*
+ * Description  : 
+ * Author       : Huxd
+ * Date         : 2021-11-27 15:17:15
+ * LastEditors  : Huxd
+ * LastEditTime : 2021-11-28 17:44:25
+ */
 /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
@@ -19,7 +26,7 @@ const Seo = ({ description, lang, meta, title }) => {
             title
             description
             social {
-              twitter
+              github
             }
           }
         }
@@ -55,19 +62,19 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          name: `twitter:card`,
+          name: `github:card`,
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
+          name: `github:creator`,
           content: site.siteMetadata?.social?.twitter || ``,
         },
         {
-          name: `twitter:title`,
+          name: `github:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: `github:description`,
           content: metaDescription,
         },
       ].concat(meta)}
