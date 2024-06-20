@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Huxd's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"…","fields":{"slug":"/hello-blog/"},"frontmatter":{"date":"November 28, 2021","title":"欢迎来到我的blog 💻","description":"这是一个我用来分享的地方"}}]}},"pageContext":{}},
-    "staticQueryHashes": ["230163734","3589320610"]}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"site":{"siteMetadata":{"title":"Huxd's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"1. JavaScript是单线程，非阻塞的 单线程：\nJavaScript的主要用途是与用户互动，以及操作DOM。如果它是多线程的会有很多复杂的问题要处理，比如有两个线程同时操作DOM，一个线程删除了当前的DOM节点，一个线程是要操作当前的DOM…","fields":{"slug":"/eventloop/"},"frontmatter":{"date":"June 20, 2024","title":"JavaScript中的Event Loop（事件循环）机制","description":"详细讲解了事件循环"}},{"excerpt":"…","fields":{"slug":"/hello-blog/"},"frontmatter":{"date":"November 28, 2021","title":"欢迎来到我的blog 💻","description":"这是一个我用来分享的地方"}}]}},"pageContext":{}},"staticQueryHashes":["230163734","3589320610"],"slicesMap":{}}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-404-js",
-    "path": "/404/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Huxd's Blog"}}},"pageContext":{}},
-    "staticQueryHashes": ["3589320610"]}
+{"componentChunkName":"component---src-pages-404-js","path":"/404/","result":{"data":{"site":{"siteMetadata":{"title":"Huxd's Blog"}}},"pageContext":{}},"staticQueryHashes":["3589320610"],"slicesMap":{}}
